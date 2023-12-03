@@ -1,1 +1,1 @@
-suwalki,polska,50,00,180,00
+poznan,polska,63,00,33,00

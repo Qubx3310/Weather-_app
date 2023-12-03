@@ -10,8 +10,8 @@ public class Main {
 
         int choice;
         do {
-            System.out.println("1. Dodawanie lokalizacji");
-            System.out.println("");
+            System.out.println("1. Dodaj lokalizację");
+            System.out.println("2. Wyświetl zapisane miasta");
             System.out.println("");
             System.out.println("");
             System.out.println("5. Zakończ aplikację.");
@@ -59,7 +59,11 @@ public class Main {
 
                     Location location = new Location(city, country, lat, lon);
                     storage.fileWrite(location);
+                    break;
+                case 2:
+
             }
+
         } while (choice != 5);
         scanner.close();
 
