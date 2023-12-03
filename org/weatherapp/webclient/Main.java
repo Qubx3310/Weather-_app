@@ -16,6 +16,7 @@ public class Main {
 
             switch (choice){
                 case 1:
+
                     System.out.println("Podaj miasto");
                     String city = scanner.next();
 
