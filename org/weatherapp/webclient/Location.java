@@ -28,6 +28,14 @@ public class Location extends BasicInformation {
         return super.getCountry();
     }
 
+    public double getLat() {
+        return lat;
+    }
+
+    public double getLon() {
+        return lon;
+    }
+
     @Override
     public String toString() {
         return super.toString();
